@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img {vertical-align: top;}
+
+
+.wrap::after, ul::after, .cl::after{content: ""; clear: both; display: block;}
+.fl{justify-content: center; align-items: center; display: flex;}
+.fl::after{display: none;}
+
+body { font-family: 'NEXON Lv1 Gothic OTF'; font-size: 16px; color: #333;}
+.wrap {width: 1400px; margin: 0 auto; position: relative;}
+.blind {position: absolute; left: -999999px; overflow: hidden; top: 0;}
+
+
+header { height: 80px; border-bottom:  1px solid #000; border-top: 2px solid #4d96eb;}
+
+
+header .wrap nav > a { padding-top: 31px; display: block;}
+header .wrap ul{ position: absolute; right: 200px; top: 0; line-height: 80px;}
+
+header .wrap ul li{float: right; margin-right: 30px; }
+header .wrap ul li a:hover, header .wrap ul li a:focus {color: #4d96eb;}
+
+header .wrap .search { float: right; margin-right: 30px; position:  relative; top: -24px;}
+
+header .wrap .search i{margin:  0 5px;}
+
+
+#main .wrap {padding-top: 40px; padding-bottom: 72px;}
+/* 메인 슬라이드*/
+
+#main .wrap .part1 {float: left;  width: 675px; height: 870px; background: url(../img/new_part1.png) no-repeat ; border-radius: 20px;}
+#main .wrap .part1 div{ padding-top: 80px; padding-left: 50px;}
+#main .wrap .part1 div p{ color: #ff4409;}
+#main .wrap .part1 div dl dt{ font-size: 36px; font-weight: bold; margin-top: 65px;}
+#main .wrap .part1 div dl dd{ margin-top: 20px; line-height: 1.5;}
+
+
+/* 고객 조회*/
+
+#main .wrap .part2 {float: left;  width: 312px; height: 870px; margin-left: 50px;}
+
+#main .wrap .part2 .Apart {width: 312px; height: 450px; border-radius: 20px; border: 1px solid#333; background: #ffffff; border-top: #ffffff;}
+
+#main .wrap .part2 .Apart .tab li {float: left; width: 156px; height: 50px; text-align: center; line-height: 50px; border-radius: 20px  20px 0 0; border: 1px solid #333; border-bottom: 1px #ffffff; box-sizing: border-box; }
+#main .wrap .part2 .Apart .tab li.select{background: #ffffff; color: #000; font-weight: 700;}
+#main .wrap .part2 .Apart .tab li:last-child{ background: #d3d2d2; border-bottom: 1px solid #333;  }
+
+
+#main .wrap .part2 .Apart .Apart0 {margin-top: 36px;}
+#main .wrap .part2 .Apart .Apart0 ul li{ float: left; width: 156px; height: 121px; text-align: center; }
+#main .wrap .part2 .Apart .Apart0 ul li a p{ margin-top: 15px;}
+
+
+#main .wrap .part2 .Bpart{width: 312px; height: 370px; border-radius: 20px; border: 1px solid#333; margin-top: 50px; background: #ffffff;}
+#main .wrap .part2 .Bpart .Bpart0 { padding-top: 34px; padding-left: 25px;  padding-right: 43px;}
+
+
+#main .wrap .part2 .Bpart .Bpart0 h3 {font-size: 22px; line-height: 1.6;}
+#main .wrap .part2 .Bpart .Bpart0 h3 a img {position: relative; top: 6px;}
+#main .wrap .part2 .Bpart .Bpart0 span {margin-top: 5px; font-size: 12px; color: #888787; display: block;}
+
+#main .wrap .part2 .Bpart .Bpart0 ul {margin-top: 36px;}
+#main .wrap .part2 .Bpart .Bpart0 ul li {float: left; height: 47px; margin-bottom: 5px;}
+
+#main .wrap .part2 .Bpart .Bpart0 ul li a{ font-size: 14px; color: #000;
+    height: 47px;  background: #d8d7d7; text-align: center; display:block; line-height: 47px;}
+
+    #main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(odd){margin-right: 5px;}
+
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(1) {width: 140px; }
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(2) {width: 98px;} 
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(3) {width: 123px;} 
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(4) {width: 115px;} 
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(5) {width: 90px;} 
+#main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(6) {width: 149px;} 
+
+/* 공지 사항 */
+#main .wrap .part3 {float: right;  width: 313px; height: 870px;}
+
+#main .wrap .part3 .Cpart {border: 1px solid #333; border-radius: 20px; background: #d8d7d7;
+padding-top: 20px; padding-bottom: 20px; }
+#main .wrap .part3 .Cpart h3 { font-size: 16px; font-weight: bold; padding-left: 30px; padding-bottom: 10px;}
+#main .wrap .part3 .Cpart p { width: 250px; font-size: 16px; background: #3d87db; height: 50px; text-align: center; line-height: 50px; margin: 0 auto; color: #ffffff; font-weight: 200;}
+#main .wrap .part3 .Cpart p img {position: relative; top: 14px; right: 5px;}
+
+
+#main .wrap .part3 .Cpart ul {padding-left: 47px;}
+#main .wrap .part3 .Cpart ul li {padding-top: 20px; float: left; font-size: 11px;}
+#main .wrap .part3 .Cpart ul li::after{content: "|"; margin: 0 15px;} 
+#main .wrap .part3 .Cpart ul li:last-child:after{display: none;}
+
+#main .wrap .part3 > ul { padding-left: 30px; margin-top: 15px;}
+#main .wrap .part3 > ul li{ float: left; font-size: 12px;}
+#main .wrap .part3 > ul li::after{content: "|"; margin: 0 15px;}
+#main .wrap .part3 > ul li:last-child:after{display: none;}
+
+
+#main .wrap .part3 .Dpart {padding-top: 80px;}
+#main .wrap .part3 .Dpart ul li{float: left; margin: 15px 0;}
+#main .wrap .part3 .Dpart ul li p{margin-top: 18px; font-size: 14px;}
+
+#main .wrap .part3 .Epart {padding-top: 40px; position: relative;}
+#main .wrap .part3 .Epart article{margin-top: 25px;}
+#main .wrap .part3 .Epart article h3{padding-bottom: 8px;}
+#main .wrap .part3 .Epart article p{font-size: 14px;}
+
+#main .wrap .part3 .Epart ul li {float: right; position: absolute; right: 0; top: 52px; }
