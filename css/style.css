@@ -52,7 +52,7 @@ header .wrap .search i{margin:  0 5px;}
 
 #main .wrap .part2 .Apart .tab li {float: left; width: 156px; height: 50px; text-align: center; line-height: 50px; border-radius: 20px  20px 0 0; border: 1px solid #333; border-bottom: 1px #ffffff; box-sizing: border-box; }
 #main .wrap .part2 .Apart .tab li.select{background: #ffffff; color: #000; font-weight: 700;}
-#main .wrap .part2 .Apart .tab li:last-child{ background: #d3d2d2; border-bottom: 1px solid #333;  }
+#main .wrap .part2 .Apart .tab li:last-child{ background: #eeeded; border-bottom: 1px solid #333;  }
 
 
 #main .wrap .part2 .Apart .Apart0 {margin-top: 36px;}
@@ -72,7 +72,7 @@ header .wrap .search i{margin:  0 5px;}
 #main .wrap .part2 .Bpart .Bpart0 ul li {float: left; height: 47px; margin-bottom: 5px;}
 
 #main .wrap .part2 .Bpart .Bpart0 ul li a{ font-size: 14px; color: #000;
-    height: 47px;  background: #d8d7d7; text-align: center; display:block; line-height: 47px;}
+    height: 47px;  background: #eeeded; text-align: center; display:block; line-height: 47px;}
 
     #main .wrap .part2 .Bpart .Bpart0 ul li:nth-child(odd){margin-right: 5px;}
 
@@ -86,7 +86,7 @@ header .wrap .search i{margin:  0 5px;}
 /* 공지 사항 */
 #main .wrap .part3 {float: right;  width: 313px; height: 870px;}
 
-#main .wrap .part3 .Cpart {border: 1px solid #333; border-radius: 20px; background: #d8d7d7;
+#main .wrap .part3 .Cpart {border: 1px solid #333; border-radius: 20px; background: #eeeded;
 padding-top: 20px; padding-bottom: 20px; }
 #main .wrap .part3 .Cpart h3 { font-size: 16px; font-weight: bold; padding-left: 30px; padding-bottom: 10px;}
 #main .wrap .part3 .Cpart p { width: 250px; font-size: 16px; background: #3d87db; height: 50px; text-align: center; line-height: 50px; margin: 0 auto; color: #ffffff; font-weight: 200;}
@@ -114,3 +114,13 @@ padding-top: 20px; padding-bottom: 20px; }
 #main .wrap .part3 .Epart article p{font-size: 14px;}
 
 #main .wrap .part3 .Epart ul li {float: right; position: absolute; right: 0; top: 52px; }
+
+
+footer {  color: #7c7c7c;}
+footer .wrap .foo { height: 80px; border-top:1px  solid #9c9c9c; border-bottom: 1px solid #9c9c9c; }
+footer .wrap .foo  h3{margin-top: 10px; margin-bottom: 10px}
+
+footer .wrap .foo ul li{float: right;margin-right: 30px;  position: relative; top: -20px;}
+
+footer .wrap > ul li {float: left; margin-right: 20px; margin-top: 15px;}
+footer .wrap > ul{margin-bottom: 10px; padding-bottom: 10px;}
